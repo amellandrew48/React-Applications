@@ -58,11 +58,14 @@ function App() {
                                 Follow me on Github
                             </a>
                         </contain-horizontal>
-                        <contain-horizontal style={{justifyContent: 'left', marginLeft: 35}}>
+                        <contain-horizontal style={{justifyContent: 'left', marginLeft: 35, marginBottom: 20}}>
                             <a href={Resume} target="_blank"> {/* Figure out an icon to put here maybe just like the default document icon*/}
                                 My Resume
                             </a>
                         </contain-horizontal>
+                        <h2>Contact Me:</h2>
+                        <text style={{marginBottom:20, marginLeft:35}}>Phone: 612-578-0748</text>
+                        <text style={{marginLeft:35}}>Email: amellandrew48@gmail.com</text>
 
                     </contain-vertical>
                 </div1>
